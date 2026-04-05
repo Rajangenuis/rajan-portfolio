@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: #0a0a0a;
+  color: white;
+  font-family: Arial;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero span {
+  background: linear-gradient(90deg, #4cc9f0, #a78bfa);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.projects {
+  padding: 50px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+}
