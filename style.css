@@ -4,7 +4,35 @@ body {
   color: white;
   font-family: Arial;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  position: sticky;
+  top: 0;
+  background: rgba(10,10,10,0.8);
+  backdrop-filter: blur(10px);
+}
 
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  color: #4cc9f0;
+}
+
+.logo {
+  color: #4cc9f0;
+}
 .hero {
   text-align: center;
   padding: 120px 20px;
