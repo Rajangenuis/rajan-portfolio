@@ -71,3 +71,6 @@ body {
   transform: translateY(-10px);
   background: rgba(255,255,255,0.1);
 }
+html {
+  scroll-behavior: smooth;
+}
