@@ -129,3 +129,9 @@ html {
   margin-bottom: 20px;
   border: 3px solid #4cc9f0;
 }
+.about {
+  padding: 50px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
