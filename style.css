@@ -74,3 +74,13 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.cursor {
+  width: 20px;
+  height: 20px;
+  background: #4cc9f0;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: 0.1s;
+}
