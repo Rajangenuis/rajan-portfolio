@@ -176,3 +176,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.navbar a:hover {
+  text-shadow: 0 0 10px #4cc9f0;
+}
